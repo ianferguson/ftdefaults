@@ -47,7 +47,7 @@ let g:go_auto_type_info = 1
 " let g:syntastic_mode_map = { 'mode': 'active', 'passive_filetypes': ['go']  }
 " let g:go_list_type = "quickfix"
 
-let g:go_highlight_types = 1
+let g:go_highlight_types = 0
 let g:go_highlight_function_arguments = 0
 let g:go_highlight_fields = 0
 let g:go_highlight_functions = 0
