@@ -14,6 +14,7 @@ set nolist
 nmap <leader>r <Plug>(go-run)
 nmap <leader>b <Plug>(go-build)
 nmap <leader>t <Plug>(go-test)
+nmap <leader>tf <Plug>(go-test-func)
 nmap <leader>c <Plug>(go-coverage)
 
 nmap <Leader>ds <Plug>(go-def-split)
@@ -33,7 +34,7 @@ nmap <Leader>s <Plug>(go-implements)
 augroup auto_go
     autocmd!
     autocmd BufWritePost *.go :GoBuild
-    autocmd BufWritePost *_test.go :GoTest
+    autocmd BufWritePost *_test.go :GoTestCompile
 augroup end
 
 let g:go_fmt_command = "goimports"
