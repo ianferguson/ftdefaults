@@ -39,15 +39,14 @@ augroup end
 
 let g:go_fmt_command = "goimports"
 let g:go_info_mode='gocode'
-" let g:go_test_show_name = 1
 let g:go_auto_type_info = 1
 
 " Re-enable to get syntastic working sort of again
 let g:syntastic_go_checkers = ['golint', 'govet', 'gometalinter']
 let g:syntastic_go_gometalinter_args = ['--disable-all', '--enable=errcheck']
 " let g:syntastic_mode_map = { 'mode': 'active', 'passive_filetypes': ['go']  }
-let g:syntastic_aggregate_errors = 1
-let g:go_list_type = "quickfix"
+" let g:syntastic_aggregate_errors = 1
+" let g:go_list_type = "quickfix"
 
 let g:go_highlight_types = 0
 let g:go_highlight_function_arguments = 0
