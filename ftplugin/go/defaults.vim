@@ -30,13 +30,6 @@ nmap <Leader>gv <Plug>(go-doc-vertical)
 nmap <Leader>i <Plug>(go-info)
 nmap <Leader>s <Plug>(go-implements)
 
-" Build/Test on save.
-augroup auto_go
-    autocmd!
-    autocmd BufWritePost *.go :GoBuild
-    autocmd BufWritePost *_test.go :GoTestCompile
-augroup end
-
 let g:go_fmt_command = "goimports"
 let g:go_info_mode='gocode'
 let g:go_auto_type_info = 1
