@@ -37,6 +37,10 @@ let g:go_auto_type_info = 1
 " Re-enable to get syntastic working sort of again
 let g:syntastic_go_checkers = ['golint', 'govet', 'gometalinter']
 let g:syntastic_go_gometalinter_args = ['--disable-all', '--enable=errcheck']
+" don't populate the loc list -- vim-go is already populating the quick-fix
+" with most things, and some combination of forcing quickfix to the bottom
+" with an autocommand, and syntastic causes weird buffer resizing
+let g:syntastic_auto_loc_list = 1
 " let g:go_list_type = "quickfix"
 "
 let g:go_metalinter_autosave = 1
