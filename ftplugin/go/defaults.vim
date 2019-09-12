@@ -31,9 +31,9 @@ nmap <Leader>i <Plug>(go-info)
 nmap <Leader>s <Plug>(go-implements)
 
 let g:go_fmt_command = "goimports"
-let g:go_info_mode='gocode'
+let g:go_info_mode = 'gopls'
 let g:go_auto_type_info = 1
-let g:go_metalinter_autosave = 1
+let g:go_metalinter_autosave = 0
 let g:go_jump_to_error = 0
 
 let g:go_highlight_types = 0
