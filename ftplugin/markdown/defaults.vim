@@ -5,7 +5,7 @@ let g:tagbar_type_markdown = {
     \ 'kinds' : [
         \ 'h:Heading_L1',
         \ 'i:Heading_L2',
-        \ 'k:Heading_L3'
+        \ 'k:Heading_L3',
         \ 'l:Heading_L4'
     \ ]
     \ }
