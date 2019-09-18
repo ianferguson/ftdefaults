@@ -33,6 +33,7 @@ nmap <Leader>s <Plug>(go-implements)
 let g:ale_open_list = 0 " Don't autoopen the ale list for golang -- it ends up just fighting vim-go
 
 let g:go_fmt_command = "goimports"
+let g:go_def_mode = 'gopls'
 let g:go_info_mode = 'gopls'
 let g:go_auto_type_info = 1         " auto show the type info of the type under the cursor
 let g:go_metalinter_autosave = 1    " auto metalint on save
