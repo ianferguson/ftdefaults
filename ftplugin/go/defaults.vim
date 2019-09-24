@@ -40,6 +40,7 @@ let g:go_auto_type_info = 1         " auto show the type info of the type under 
 let g:go_metalinter_autosave = 1    " auto metalint on save
 let g:go_jump_to_error = 0          " when running gometalint, gobuild, etc on autosave, don't autojump the cursor to the first error
 let g:go_list_autoclose = 1         " autoclose fixlists
+let g:go_test_show_name = 1
 
 let g:go_highlight_types = 0
 let g:go_highlight_function_arguments = 0
