@@ -17,6 +17,7 @@ nmap <leader>t <Plug>(go-test)
 nmap <leader>tc <Plug>(go-test-compile)
 nmap <leader>tf <Plug>(go-test-func)
 nmap <leader>c <Plug>(go-coverage)
+nmap <leader>cc <Plug>(go-coverage-clear)
 
 nmap <Leader>ds <Plug>(go-def-split)
 nmap <Leader>dv <Plug>(go-def-vertical)
