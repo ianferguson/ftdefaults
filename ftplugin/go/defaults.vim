@@ -31,6 +31,7 @@ nmap <Leader>gv <Plug>(go-doc-vertical)
 
 nmap <Leader>i <Plug>(go-info)
 nmap <Leader>s <Plug>(go-implements)
+nmap <leader>gr <Plug>(go-referrers)
 
 let g:ale_open_list = 0 " Don't autoopen the ale list for golang -- it ends up just fighting vim-go
 
